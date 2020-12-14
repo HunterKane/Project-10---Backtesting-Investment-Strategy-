@@ -1,7 +1,7 @@
 # Project-10---Backtesting-Investment-Strategy-
 
 Backtesting Investment Strategy:
-- Purpose of projet is to examine daily Close prices of stocks from 2010-01-01 to 2020-03-31 for DOW JONES. 
+- Purpose of this project is to examine daily Close prices of stocks from 2010-01-01 to 2020-03-31 from the DOW JONES constituents. 
 
 __Method__:
 - Create active strategies that outperform a passive buy and hold strategy for the Dow Jones Index.
@@ -19,3 +19,12 @@ __Strategy__:
 - Simple Momentum(active strategy to be tested):
 - a)Investing(+1) into DJl tomorrow if today's returns were positive
 - b)Short Selling(-1) into DJl tomrrow if today's returns were negative
+
+
+__Conclusion of Basic Strategy__:
+
+- From an emulated basses we have a return of - 5%
+- DOW JONES return 0.07% per year
+
+__Key Finding__:
+Our momentum strategy underperforms the basic buy and hold strategy. Not a beneficial long term strategy.

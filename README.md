@@ -28,3 +28,16 @@ __Conclusion of Basic Strategy__:
 
 __Key Finding__:
 Our momentum strategy underperforms the basic buy and hold strategy. Not a beneficial long term strategy.
+
+
+__Backtesting a simple Contrarian Strategy__:
+
+- Buy and Hold(Basic Strategy): Initially Investing into the DJI and do nothing(Position: +1 on all days)
+- Simple Contrarian(Strategy to be tested):
+- Short selling(-1) DJI tomorrow if today's return was positive
+- Investing(+1)into DJI tomorrow if today's return was negative
+
+
+__More Complex Strategies & Backtesting vs. Fitting__:
+- Try to find a strategy that outperforms our buy and hold strategy
+**Note: Backtesting is performed on historical data available / Fitting follows the system's logic in a live market

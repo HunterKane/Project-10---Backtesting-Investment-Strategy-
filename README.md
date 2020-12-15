@@ -50,3 +50,14 @@ __Conclusion from Fitting testing__:
 - Tax efffects -> Changing positions can trigger tax payments. Include tax.
 
 
+__Simple Moving Averages (Crossovers) Strategy implemented to see if it outperforms or overperforms the Buy and Hold Strategy__.
+
+- Buy and Hold(basic strategy): Initially Investing in DJI and do nothing (Position: +1 on all days) SMA Crossover(Momentum)(Strategy to be tested):
+- a) Investing(+1): SMA50 > SMA200
+- b) Short Selling(-1):SMA50 < SMA200 
+
+__Final Conclusions from the data__:
+- Positions change when both curves cross paths. From -1 to +1. When SMA50 is greater = +1 / When SMA50 is less than = -1
+- Our strategy underperforms over the long term.
+- No evidence shows that our simple moving average crossover momentum strategy over or outperforms the Buy and Hold strategy.
+- Our strategy underperforms and we should not rely upon simple moving average strategies.

@@ -40,4 +40,13 @@ __Backtesting a simple Contrarian Strategy__:
 
 __More Complex Strategies & Backtesting vs. Fitting__:
 - Try to find a strategy that outperforms our buy and hold strategy
-**Note: Backtesting is performed on historical data available / Fitting follows the system's logic in a live market
+- **Note: Backtesting is performed on historical data available / Fitting follows the system's logic in a live market
+
+__Conclusion from Fitting testing__:
+
+- Even if a strategy seems to outperform the basic Strategy, the following issues need to be considered/analyzed as well:
+- Backtesting Vs. Fitting -> Was the strategy fitted and optimized on historical data? Forward testing is required
+- Transaction Costs -> Chaning positions trigger cost. Include costs.
+- Tax efffects -> Changing positions can trigger tax payments. Include tax.
+
+
